@@ -1,0 +1,52 @@
+---
+layout: default
+---
+{% if site.show-nav-menu %}
+  {% include nav.html%}
+{% endif %}
+
+<div class="text-dark-primary max-w-[700px] m-auto">
+  <h1 class="text-center mt-24 font-serif font-bold text-6xl lowercase">{{ page.title }}</h1>
+  <h1 class="text-center mt-6 mb-8 font-sans font-semibold text-xl tracking-wider">{{ page.subtitle }}</h1>
+  <div class="justify-center flex pb-16">
+    <img src="{{site.baseurl}}/assets/img/stride-1.png">
+  </div>
+</div>
+<div class="py-16 bg-light-primary">
+  <div class="text-dark-primary max-w-[700px] m-auto">
+    <div class="mb-14">
+      <div class="font-semibold uppercase mb-2 text-lg">Background</div>
+      <div class="leading-6">{{ page.background }}</div>
+    </div>
+    <div class="mb-14">
+      <div class="font-semibold uppercase mb-2 text-lg">The Challenge</div>
+      <div class="leading-6">{{ page.challenge }}</div>
+    </div>
+    <div class="flex flex-row">
+      <div class="mr-32">
+        <div class="font-semibold uppercase mb-2 text-lg">My Role</div>
+        <div>{{ page.role }}</div>
+      </div>
+      <div class="mr-32">
+        <div class="font-semibold uppercase mb-2 text-lg">Timeline</div>
+        <div>{{ page.timeline }}</div>
+      </div>
+      <div>
+        <div class="font-semibold uppercase mb-2 text-lg">Tools</div>
+        <div>{{ page.tools }}</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="bg-dark-primary h-[184px]">
+
+</div>
+<div class="text-dark-primary max-w-[700px] m-auto pt-24 pb-8">
+  <div class="text-[32px] leading-10 uppercase tracking-wider font-semibold mb-5">Talking to our users</div>
+  <div class="leading-6">To start the discovery phase, I interviewed five users of fitness apps to better <b>understand their behaviors and attitudes when it came to fitness apps and social features.</b> Users spoke positively about social fitness apps that they have used in the past. Check out what some users shared:</div>
+</div>
+<div>
+  <img class="mx-auto" src="{{site.baseurl}}/assets/img/stride-2.svg"></img>
+</div>
+
+{% include footer.html %}

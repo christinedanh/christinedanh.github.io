@@ -3,8 +3,8 @@ baseurl: "/christinedanh.github.io" # the name of your github repo
 url: "https://christinedanh.com" # the url of your github pages
 
 # site information used in page title, meta data etc.
-title: "Tailpages: Tailwind + Github Pages"
-description: A Github Pages (Jekyll) template based on TailwindCSS
+title: "Christine Danh"
+description: Portfolio site for Christine Danh
 
 # color theme for links
 theme-color: indigo # indigo|yellow|pink|green|stone|
@@ -19,7 +19,7 @@ show-nav-menu: true
 
 nav-menu:
 - text: About
-  permalink: about
+  permalink:
 - text: Work
   permalink: work
 
@@ -34,11 +34,11 @@ google-scholar: false
 email: mailto:christine.danh@gmail.com
 
 # footer information
-footer-msg: "Powered by love and coffee"
+footer-msg: "powered by love and coffee"
 footer-msg-link: https://christinedanh.com
 
 # google analytics
-google-analytics: G-WCRC1TC2V5
+google-analytics: false
 
 # jekyll plugins - no need to change
 plugins:

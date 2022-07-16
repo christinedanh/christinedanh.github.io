@@ -7,6 +7,12 @@ module.exports = {
   darkMode: 'media',
   theme: {
     extend: {
+      colors: {
+        black: '#3E3C3D',
+        "white-almost": '#FEFFFF',
+        "light-primary": '#ECEDEF',
+        "dark-primary": '#2E2E31',
+      },
       typography: {
         DEFAULT: {
           css: {
@@ -30,7 +36,8 @@ module.exports = {
         },
       },
       fontFamily: {
-        sans: ['Inter var', ...defaultTheme.fontFamily.sans],
+        sans: ['Red Hat Text', ...defaultTheme.fontFamily.sans],
+        serif: ['Lora', ...defaultTheme.fontFamily.serif],
       },
     },
   },
