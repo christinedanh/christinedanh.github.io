@@ -649,16 +649,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 1.5rem;
 }
 
-.w-\[60\%\] {
-  width: 60%;
+.w-\[65\%\] {
+  width: 65%;
 }
 
 .w-36 {
   width: 9rem;
-}
-
-.w-\[65\%\] {
-  width: 65%;
 }
 
 .max-w-max {
@@ -825,6 +821,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 1.5rem;
 }
 
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .px-2\.5 {
   padding-left: 0.625rem;
   padding-right: 0.625rem;
@@ -979,10 +980,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .tracking-widest {
   letter-spacing: 0.1em;
-}
-
-.tracking-\[11\%\] {
-  letter-spacing: 11%;
 }
 
 .text-indigo-600 {
@@ -1501,9 +1498,17 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-prose-invert-links: #6366f1;
 }
 
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 div {
   font-size: 17px;
-  font-weight: 300;
+}
+
+b {
+  font-weight: 600;
 }
 
 .hover\:border-transparent:hover {
