@@ -41,7 +41,7 @@ layout: default
 <div class="bg-dark-primary h-[184px] flex justify-center items-center">
   <img src="{{site.baseurl}}/assets/img/stride-process.png"></img>
 </div>
-<div class="text-dark-primary max-w-[700px] m-auto pt-24 pb-8" data-section="1">
+<div id="stride-part-1" class="text-dark-primary max-w-[700px] m-auto pt-24 pb-8">
   <div class="text-[32px] leading-10 uppercase tracking-widest font-semibold mb-5">Talking to our users</div>
   <div class="leading-6">To start the discovery phase, I interviewed five users of fitness apps to better <b>understand their behaviors and attitudes when it came to fitness apps and social features.</b> Users spoke positively about social fitness apps that they have used in the past. Check out what some users shared:</div>
 </div>
@@ -105,7 +105,7 @@ layout: default
 <div class="mb-36">
   <img class="mx-auto" src="{{site.baseurl}}/assets/img/stride-6.png"></img>
 </div>
-<div class="text-dark-primary max-w-[700px] m-auto pb-8">
+<div class="text-dark-primary max-w-[700px] m-auto pb-8" id="stride-part-2">
   <div class="text-[32px] leading-10 uppercase tracking-widest font-semibold mb-5">Creating user stories</div>
   <div class="leading-6">With epics derived from our user insights, I generated user stories and defined what functions were integral to Stride's social features.</div>
 </div>
@@ -119,7 +119,7 @@ layout: default
 <div class="mb-36 px-8 mx-auto">
   <img class="mx-auto" src="{{site.baseurl}}/assets/img/stride-8.png"></img>
 </div>
-<div class="text-dark-primary max-w-[700px] m-auto pb-8">
+<div class="text-dark-primary max-w-[700px] m-auto pb-8" id="stride-part-3">
   <div class="text-[32px] leading-10 uppercase tracking-widest font-semibold mb-5">Bringing it to life</div>
   <div class="text-lg leading-10 uppercase tracking-widest font-semibold mb-5">Sketching and guerilla testing</div>
   <div class="leading-6">With clarity of the users flows, I began ideating. I started by sketching different versions of each screen, thinking about the elements that would need to be included, where they would be placed, and how users would interact with them. Once I had a working solution, I conducted a quick round of guerilla testing to catch major usability issues.</div>
@@ -127,7 +127,7 @@ layout: default
 <div class="mb-24 px-8 mx-auto">
   <img class="mx-auto" src="{{site.baseurl}}/assets/img/stride-9.png"></img>
 </div>
-<div class="text-dark-primary max-w-[700px] m-auto pb-8">
+<div class="text-dark-primary max-w-[700px] m-auto pb-8" id="stride-part-4">
   <div class="text-lg leading-10 uppercase tracking-widest font-semibold mb-5">From Sketches to Mid-Fidelity</div>
   <div class="leading-6">I used the insights I gained from guerilla testing to guide my design changes for the next iteration. Being more confident in the design, I moved the process from paper onto Figma in order to better capture what the screens would look like.</div>
 </div>
@@ -135,7 +135,7 @@ layout: default
   <img class="mx-auto" src="{{site.baseurl}}/assets/img/stride-10.png"></img>
 </div>
 <div class="text-dark-primary max-w-[700px] m-auto pb-8">
-  <div class="text-[32px] leading-10 uppercase tracking-widest font-semibold mb-5">Validating the design</div>
+  <div class="text-[32px] leading-10 uppercase tracking-widest font-semibold mb-5" id="stride-part-5">Validating the design</div>
   <div class="text-lg leading-10 uppercase tracking-widest font-semibold mb-5">Usability testing: Round 1</div>
   <div class="leading-6">I recruited five users of fitness apps and conducted a round of usability tests. I wanted to find out if users would be able to easefully use Stride's new social features. Specifically, I asked them to complete the following tasks:</div>
   <div class="mt-6 mb-5">
@@ -179,4 +179,76 @@ layout: default
     <li>Evaluate user metrics to determine if the new social features are driving engagement and repeat usage</li>
   </ol>
 </div>
+<script>
+  const headerImg = document.getElementById('header-img');
+  headerImg.src = "{{site.baseurl}}/assets/img/stride-process-1.png";
+
+  let waypoint1 = new Waypoint({
+    element: document.getElementById('stride-part-1'),
+    handler: function(direction) {
+      const header = document.getElementById('header');
+      if (direction === 'up') {
+        header.style.height = '0px';
+        header.style.visibility = 'hidden';
+        header.style.opacity = '0';
+      } else {
+        header.style.height = '110px';
+        header.style.opacity = '1';
+        header.style.visibility = 'visible';
+      }
+    }
+  })
+
+  let waypoint2 = new Waypoint({
+    offset: 110,
+    element: document.getElementById('stride-part-2'),
+    handler: function(direction) {
+      const headerImg = document.getElementById('header-img');
+      if (direction === 'up') {
+        headerImg.src = "{{site.baseurl}}/assets/img/stride-process-1.png";
+      } else {
+        headerImg.src = "{{site.baseurl}}/assets/img/stride-process-2.png";
+      }
+    }
+  })
+
+  let waypoint3 = new Waypoint({
+    offset: 110,
+    element: document.getElementById('stride-part-3'),
+    handler: function(direction) {
+      const headerImg = document.getElementById('header-img');
+      if (direction === 'up') {
+        headerImg.src = "{{site.baseurl}}/assets/img/stride-process-2.png";
+      } else {
+        headerImg.src = "{{site.baseurl}}/assets/img/stride-process-3.png";
+      }
+    }
+  })
+
+  let waypoint4 = new Waypoint({
+    offset: 110,
+    element: document.getElementById('stride-part-4'),
+    handler: function(direction) {
+      const headerImg = document.getElementById('header-img');
+      if (direction === 'up') {
+        headerImg.src = "{{site.baseurl}}/assets/img/stride-process-3.png";
+      } else {
+        headerImg.src = "{{site.baseurl}}/assets/img/stride-process-4.png";
+      }
+    }
+  })
+
+  let waypoint5 = new Waypoint({
+    offset: 110,
+    element: document.getElementById('stride-part-5'),
+    handler: function(direction) {
+      const headerImg = document.getElementById('header-img');
+      if (direction === 'up') {
+        headerImg.src = "{{site.baseurl}}/assets/img/stride-process-4.png";
+      } else {
+        headerImg.src = "{{site.baseurl}}/assets/img/stride-process-5.png";
+      }
+    }
+  })
+</script>
 {% include footer.html %}

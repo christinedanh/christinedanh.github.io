@@ -42,11 +42,13 @@
   </script>
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js" integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
  </head>
 
 <body class="font-sans mx-auto bg-white-almost">
-  <header data-header class="sticky top-0 z-50 h-[110px] bg-dark-primary justify-center items-center hidden">
-    <img class="h-[96px]" src="{{site.baseurl}}/assets/img/stride-process-1.png"></img>
+  <header id="header" class="sticky top-0 z-50 h-0 bg-dark-primary flex justify-center items-center invisible opacity-0 transition duration-500">
+    <img id="header-img" class="h-[96px]" src=""></img>
   </header>
   <div class="pt-12 pb-4">
     {{ content }}
