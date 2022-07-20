@@ -1,0 +1,262 @@
+---
+layout: default
+---
+{% if site.show-nav-menu %}
+  {% include nav.html%}
+{% endif %}
+
+<div class="text-dark-primary max-w-[700px] m-auto">
+  <h1 class="text-center mt-24 font-serif font-bold text-6xl lowercase">{{ page.title }}</h1>
+  <h1 class="text-center mt-6 mb-8 font-sans font-semibold text-xl tracking-wider">{{ page.subtitle }}</h1>
+  <div class="justify-center flex pb-16">
+    <img src="{{site.baseurl}}/assets/img/therafind-1.png">
+  </div>
+</div>
+<div class="py-16 bg-light-primary">
+  <div class="text-dark-primary max-w-[700px] m-auto">
+    <div class="mb-14">
+      <div class="font-semibold uppercase mb-2 text-lg">Background</div>
+      <div class="leading-6">{{ page.background }}</div>
+    </div>
+    <div class="mb-14">
+      <div class="font-semibold uppercase mb-2 text-lg">The Challenge</div>
+      <div class="leading-6">{{ page.challenge }}</div>
+    </div>
+    <div class="mb-14">
+      <div class="font-semibold uppercase mb-2 text-lg">The Solution</div>
+      <div class="leading-6">{{ page.solution }}</div>
+    </div>
+    <div class="mb-14">
+      <div class="font-semibold uppercase mb-2 text-lg">Design Approach</div>
+      <div class="leading-6">{{ page.design_approach }}</div>
+    </div>
+    <div class="flex flex-row">
+      <div class="mr-32">
+        <div class="font-semibold uppercase mb-2 text-lg">My Role</div>
+        <div>{{ page.role }}</div>
+      </div>
+      <div class="mr-32">
+        <div class="font-semibold uppercase mb-2 text-lg">Timeline</div>
+        <div>{{ page.timeline }}</div>
+      </div>
+      <div>
+        <div class="font-semibold uppercase mb-2 text-lg">Tools</div>
+        <div>{{ page.tools }}</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="bg-dark-primary h-[184px] flex justify-center items-center">
+  <img src="{{site.baseurl}}/assets/img/stride-process.png"></img>
+</div>
+<div id="stride-part-1" class="text-dark-primary max-w-[700px] m-auto pt-24 pb-8">
+  <div class="text-[32px] leading-10 uppercase tracking-widest font-semibold mb-5">Talking to our users</div>
+  <div class="leading-6">To start the discovery phase, I interviewed five users of fitness apps to better <b>understand their behaviors and attitudes when it came to fitness apps and social features.</b> Users spoke positively about social fitness apps that they have used in the past. Check out what some users shared:</div>
+</div>
+<div class="mb-36">
+  <img class="mx-auto" src="{{site.baseurl}}/assets/img/stride-2.png"></img>
+</div>
+<div class="text-dark-primary max-w-[700px] m-auto pb-8">
+  <div class="text-[32px] leading-10 uppercase tracking-widest font-semibold mb-5">Competing apps liked by users</div>
+  <div class="leading-6 mb-11">From my five interviews, the most talked about competitors were Apple Fitness, Strava, and Nike Run Club. Because of this, I decided to analyze these three competitors to get a glimpse of how they're tackling the challenge of incorporating social features into their product.</div>
+  <div class="flex items-center space-x-4 mb-11">
+    <div class="w-[65%]">
+      <div class="mb-4 tracking-wider font-semibold text-lg uppercase">Apple Fitness</div>
+      <ul class="list-disc list-outside pl-5 leading-7">
+        <li>View friends' daily activity and achievements on profiles</li>
+        <li>Receive immediate notifications upon friend's completion of an activity or accomplishment, but no feed</li>
+        <li>Respond to notifications via iMessage</li>
+        <li>Compete with friends by collecting points through burning calories, exercising, and standing</li>
+        <li>Gain badges to display on profile by reaching exercise acheivements and participating in competitions</li>
+      </ul>
+    </div>
+    <div>
+      <img class="mx-auto" src="{{site.baseurl}}/assets/img/stride-3.png"></img>
+    </div>
+  </div>
+  <div class="flex items-center space-x-4 mb-11">
+    <div class="w-[65%]">
+      <div class="mb-4 tracking-wider font-semibold text-lg uppercase">Strava</div>
+      <ul class="list-disc list-outside pl-5 leading-7">
+        <li>Feed showing latest activity from friends and community</li>
+        <li>Users can comment and like posts</li>
+        <li>Workouts can be shared to the feed upon completion</li>
+        <li>Create private fitness challenges and invite friends</li>
+        <li>Private groups between friends where users can post and create competitions privately</li>
+        <li>No feature to privately message friends</li>
+      </ul>
+    </div>
+    <div>
+      <img class="mx-auto" src="{{site.baseurl}}/assets/img/stride-4.png"></img>
+    </div>
+  </div>
+  <div class="flex items-center space-x-4 mb-36">
+    <div class="w-[65%]">
+      <div class="mb-4 tracking-wider font-semibold text-lg uppercase">Nike Run Club</div>
+      <ul class="list-disc list-outside pl-5 leading-7">
+        <li>Record runs and share stats with friends</li>
+        <li>Create running challenges and invite friends</li>
+        <li>View leaderboard to compare stats between friends by week, month or year</li>
+        <li>Join community challenges and view stats of top performers</li>
+        <li>Earn badges for accomplishments to display on profile</li>
+      </ul>
+    </div>
+    <div>
+      <img class="mx-auto" src="{{site.baseurl}}/assets/img/stride-5.png"></img>
+    </div>
+  </div>
+</div>
+<div class="text-dark-primary max-w-[700px] m-auto pb-8">
+  <div class="text-[32px] leading-10 uppercase tracking-widest font-semibold mb-5">Understanding our users and generating epics</div>
+  <div class="leading-6">After investigating competing apps, I went back and extracted data from my user interviews to find key insights by creating an affinity map. These insights helped me generate possible epics for Stride. The highlighted epics below were selected to generate user stories for.</div>
+</div>
+<div class="mb-36">
+  <img class="mx-auto" src="{{site.baseurl}}/assets/img/stride-6.png"></img>
+</div>
+<div class="text-dark-primary max-w-[700px] m-auto pb-8" id="stride-part-2">
+  <div class="text-[32px] leading-10 uppercase tracking-widest font-semibold mb-5">Creating user stories</div>
+  <div class="leading-6">With epics derived from our user insights, I generated user stories and defined what functions were integral to Stride's social features.</div>
+</div>
+<div class="mb-36">
+  <img class="mx-auto" src="{{site.baseurl}}/assets/img/stride-7.png"></img>
+</div>
+<div class="text-dark-primary max-w-[700px] m-auto pb-8">
+  <div class="text-[32px] leading-10 uppercase tracking-widest font-semibold mb-5">Mapping the user flow</div>
+  <div class="leading-6">After identifying the user stories, I developed three user flows in order to map out how a user would interact with the product to complete these tasks.</div>
+</div>
+<div class="mb-36 px-8 mx-auto">
+  <img class="mx-auto" src="{{site.baseurl}}/assets/img/stride-8.png"></img>
+</div>
+<div class="text-dark-primary max-w-[700px] m-auto pb-8" id="stride-part-3">
+  <div class="text-[32px] leading-10 uppercase tracking-widest font-semibold mb-5">Bringing it to life</div>
+  <div class="text-lg leading-10 uppercase tracking-widest font-semibold mb-5">Sketching and guerilla testing</div>
+  <div class="leading-6">With clarity of the users flows, I began ideating. I started by sketching different versions of each screen, thinking about the elements that would need to be included, where they would be placed, and how users would interact with them. Once I had a working solution, I conducted a quick round of guerilla testing to catch major usability issues.</div>
+</div>
+<div class="mb-24 px-8 mx-auto">
+  <img class="mx-auto" src="{{site.baseurl}}/assets/img/stride-9.png"></img>
+</div>
+<div class="text-dark-primary max-w-[700px] m-auto pb-8" id="stride-part-4">
+  <div class="text-lg leading-10 uppercase tracking-widest font-semibold mb-5">From Sketches to Mid-Fidelity</div>
+  <div class="leading-6">I used the insights I gained from guerilla testing to guide my design changes for the next iteration. Being more confident in the design, I moved the process from paper onto Figma in order to better capture what the screens would look like.</div>
+</div>
+<div class="mb-36 px-8 mx-auto">
+  <img class="mx-auto" src="{{site.baseurl}}/assets/img/stride-10.png"></img>
+</div>
+<div class="text-dark-primary max-w-[700px] m-auto pb-8">
+  <div class="text-[32px] leading-10 uppercase tracking-widest font-semibold mb-5" id="stride-part-5">Validating the design</div>
+  <div class="text-lg leading-10 uppercase tracking-widest font-semibold mb-5">Usability testing: Round 1</div>
+  <div class="leading-6">I recruited five users of fitness apps and conducted a round of usability tests. I wanted to find out if users would be able to easefully use Stride's new social features. Specifically, I asked them to complete the following tasks:</div>
+  <div class="mt-6 mb-5">
+    <div class="flex">
+      <div class="font-bold w-24 shrink-0">Task 1:</div>
+      <div class="">Record a run you're about to do, then share it with your friends</div>
+    </div>
+    <div class="flex mt-5">
+      <div class="font-bold w-24 shrink-0">Task 2:</div>
+      <div class="">Check out what kinds of workouts your friends have been doing recently and show them your support</div>
+    </div>
+    <div class="flex mt-5">
+      <div class="font-bold w-24 shrink-0">Task 3:</div>
+      <div class="">Check in with a friend to see how their training has been going and challenge them to an exercise competition</div>
+    </div>
+  </div>
+  <div class="leading-6">All test participants were able to complete each task without  any missteps. Though no major usability issues were uncovered during this round of testing, users help me identify minor issues that could be improved.</div>
+</div>
+<div class="mt-10 mb-36 px-8 mx-auto">
+  <img class="mx-auto" src="{{site.baseurl}}/assets/img/stride-11.png"></img>
+</div>
+<div class="text-dark-primary max-w-[700px] m-auto pb-8">
+  <div class="text-lg leading-10 uppercase tracking-widest font-semibold mb-5">Usability Testing: Round 2</div>
+  <div class="leading-6">Given the feedback from round one of testing, I made design changes to improve the usability of the prototype. I then took the next iteration through another round of usability testing with five new users and continued to iterate based on my findings.</div>
+</div>
+<div class="mt-10 mb-36 px-8 mx-auto">
+  <img class="mx-auto" src="{{site.baseurl}}/assets/img/stride-12.png"></img>
+</div>
+<div class="text-dark-primary max-w-[700px] m-auto pb-8">
+  <div class="text-[32px] leading-10 uppercase tracking-widest font-semibold mb-5">The current iteration</div>
+  <div class="leading-6">I recruited five users of fitness apps and conducted a round of usability tests. I wanted to find out if users would be able to easefully use Stride's new social features. Specifically, I asked them to complete the following tasks:</div>
+</div>
+<div class="mt-10 mb-36 px-8 mx-auto">
+  <img class="mx-auto" src="{{site.baseurl}}/assets/img/stride-13.png"></img>
+</div>
+<div class="text-dark-primary max-w-[700px] m-auto pb-8">
+  <div class="text-[32px] leading-10 uppercase tracking-widest font-semibold mb-5">Next steps</div>
+  <div class="leading-6">This is just the beginning for Stride's social features. The next challenges I'd like to tackle would be:</div>
+  <ol class="list-decimal list-outside pl-6 leading-7 mt-2">
+    <li>Conduct usability testing on the new iteration and continue to make design changes to increase ease of use</li>
+    <li>Evaluate user metrics to determine if the new social features are driving engagement and repeat usage</li>
+  </ol>
+</div>
+<script>
+  const headerImg = document.getElementById('header-img');
+  headerImg.src = "{{site.baseurl}}/assets/img/stride-process-1.png";
+
+  let waypoint1 = new Waypoint({
+    element: document.getElementById('stride-part-1'),
+    handler: function(direction) {
+      const header = document.getElementById('header');
+      if (direction === 'up') {
+        header.style.height = '0px';
+        header.style.visibility = 'hidden';
+        header.style.opacity = '0';
+      } else {
+        header.style.height = '110px';
+        header.style.opacity = '1';
+        header.style.visibility = 'visible';
+      }
+    }
+  })
+
+  let waypoint2 = new Waypoint({
+    offset: 110,
+    element: document.getElementById('stride-part-2'),
+    handler: function(direction) {
+      const headerImg = document.getElementById('header-img');
+      if (direction === 'up') {
+        headerImg.src = "{{site.baseurl}}/assets/img/stride-process-1.png";
+      } else {
+        headerImg.src = "{{site.baseurl}}/assets/img/stride-process-2.png";
+      }
+    }
+  })
+
+  let waypoint3 = new Waypoint({
+    offset: 110,
+    element: document.getElementById('stride-part-3'),
+    handler: function(direction) {
+      const headerImg = document.getElementById('header-img');
+      if (direction === 'up') {
+        headerImg.src = "{{site.baseurl}}/assets/img/stride-process-2.png";
+      } else {
+        headerImg.src = "{{site.baseurl}}/assets/img/stride-process-3.png";
+      }
+    }
+  })
+
+  let waypoint4 = new Waypoint({
+    offset: 110,
+    element: document.getElementById('stride-part-4'),
+    handler: function(direction) {
+      const headerImg = document.getElementById('header-img');
+      if (direction === 'up') {
+        headerImg.src = "{{site.baseurl}}/assets/img/stride-process-3.png";
+      } else {
+        headerImg.src = "{{site.baseurl}}/assets/img/stride-process-4.png";
+      }
+    }
+  })
+
+  let waypoint5 = new Waypoint({
+    offset: 110,
+    element: document.getElementById('stride-part-5'),
+    handler: function(direction) {
+      const headerImg = document.getElementById('header-img');
+      if (direction === 'up') {
+        headerImg.src = "{{site.baseurl}}/assets/img/stride-process-4.png";
+      } else {
+        headerImg.src = "{{site.baseurl}}/assets/img/stride-process-5.png";
+      }
+    }
+  })
+</script>
+{% include footer.html %}

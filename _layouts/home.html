@@ -13,7 +13,7 @@ layout: default
   <div>
     {% for case-study in page.case-studies %}
       <a href="{{site.baseurl}}/work/{{case-study.permalink}}" class="mb-24">
-        <h1 class="text-center mt-24 font-serif font-bold text-6xl lowercase">{{ case-study.title }}</h1>
+        <h1 class="text-center mt-24 font-serif font-bold text-6xl">{{ case-study.title }}</h1>
         <h1 class="text-center mt-6 mb-8 font-sans font-semibold text-xl tracking-wider">{{ case-study.subtitle }}</h1>
         <div class="justify-center flex">
           <img src="{{site.baseurl}}/assets/img/{{case-study.image}}.png">
