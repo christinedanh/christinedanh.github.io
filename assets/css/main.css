@@ -13,3 +13,7 @@ div {
 b {
   @apply font-semibold;
 }
+
+p {
+  @apply mb-5;
+}

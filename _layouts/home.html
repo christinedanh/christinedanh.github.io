@@ -5,17 +5,33 @@ layout: default
   {% include nav.html%}
 {% endif %}
 
-<div class="mx-auto text-center prose prose-{{site.theme-color}}">
+<div class="text-dark-primary max-w-[700px] mt-28 mx-auto">
+  <div class="text-[4rem] leading-tight font-bold mb-6"><span class="text-sky-500">Hi there.</span> I'm Christine, a UI/UX Designer.</div>
+  <div class="text-2xl leading-tight font-semibold">User-centric designer. Board certified behavior analyst.</div>
+  {% include social-media.html %}
+  <div class="text-2xl font-bold mt-28">Recent work</div>
   <div>
-    <img class="object-cover mx-auto h-36 w-36 rounded-full" src="{{site.baseurl}}/assets/img/{{site.author-image}}"
-      alt="author profile image">
-    <h1>{{site.author}}</h1>
+    {% for case-study in page.case-studies %}
+      <a href="{{site.baseurl}}/work/{{case-study.permalink}}" class="mb-24">
+        <h1 class="text-center mt-24 font-serif font-bold text-6xl lowercase">{{ case-study.title }}</h1>
+        <h1 class="text-center mt-6 mb-8 font-sans font-semibold text-xl tracking-wider">{{ case-study.subtitle }}</h1>
+        <div class="justify-center flex">
+          <img src="{{site.baseurl}}/assets/img/{{case-study.image}}.png">
+        </div>
+      </a>
+      <!-- divider -->
+      {% if forloop.last == false %}
+        <div class="relative my-8">
+          <div class="absolute inset-0 flex items-center" aria-hidden="true">
+            <div class="w-full border-t border-gray-200"></div>
+          </div>
+          <div class="relative flex justify-center ">
+            <span class="bg-white px-2 text-gray-200">
+            </span>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
   </div>
-  {% if site.author-bio %}
-  <p class="text-gray-500 pb-4">{{site.author-bio}}</p>
-  {% endif %}
 </div>
-</div>
-
-{% include social-media.html %}
 {% include footer.html %}

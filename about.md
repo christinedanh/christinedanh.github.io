@@ -1,22 +1,13 @@
 ---
-layout: page
+layout: about
 title: About
 permalink: about
 ---
 
-> Satoshi Nakamoto is the name used by the presumed pseudonymous person or persons who developed bitcoin, authored the bitcoin white paper, and created and deployed bitcoin's original reference implementation. - Wikipedia
+I’m a UI/UX Designer and Developer– I enjoy solving complex problems, creating impactful and user-centered experiences across multiple platforms that are informed by research and data. I am currently a Product Designer at Pond5. I previously was a Senior Developer/Experience Designer at Responsify and an UI/UX Designer at Makr.
 
-## Profile Image
+I’m passionate about design technology and tools, including developing Figma component libraries and design systems to improve the design process and deliver consistent experiences to users.
 
-The following profile image is my first NFT avatar.
-<img class="mx-auto w-1/2" src="{{site.baseurl}}/assets/img/279.png">
+I founded FOCA Stock in 2013, a free and curated creative asset library. FOCA provides free photos, videos, and templates for commercial use. It has had 1,882,250 sessions and has been featured on Shopify and Canva.
 
-## References
-
-I copied some references from [wikipedia](https://en.wikipedia.org/wiki/Satoshi_Nakamoto) to show some markdown examples:
-
- - "The misidentification of Satoshi Nakamoto". theweek.com. 30 June 2015. Retrieved 22 July 2019.
- Kharif, Olga (23 April 2019). "John McAfee Vows to Unmask Crypto's Satoshi Nakamoto, Then Backs Off". Bloomberg.
- - "Who Is Satoshi Nakamoto, Inventor of Bitcoin? It Doesn't Matter". Fortune. Retrieved 22 July 2019.
- - Bearman, Sophie (27 October 2017). "Bitcoin's creator may be worth $6 billion — but people still don't know who it is". CNBC. Retrieved 22 July 2019.
- S., L. (2 November 2015). "Who is Satoshi Nakamoto?". The Economist explains. The Economist. Archived from the original on 21 August 2016. Retrieved 3 November 2015.
+When I’m not designing, you’ll find me taking photos and exploring the outdoors. I’m also interested in urban mobility, transit, and the future of cities.

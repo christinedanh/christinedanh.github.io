@@ -1,0 +1,16 @@
+---
+layout: default
+---
+{% if site.show-nav-menu %}
+  {% include nav.html%}
+{% endif %}
+
+<div class="text-dark-primary max-w-[700px] mt-28 mx-auto">
+  <div class="text-[4rem] leading-tight font-bold mb-16">I'm Christine Danh. Nice to meet you.</div>
+  <div class="my-10 text-lg">
+    {{ content }}
+  </div>
+  <div class="text-2xl leading-tight font-bold mb-2">Email me</div>
+  <a class="text-xl font-semibold underline text-sky-500" href="mailto:christine.danh@gmail.com">christine.danh@gmail.com</a>
+</div>
+{% include footer.html %}

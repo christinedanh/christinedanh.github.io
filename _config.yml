@@ -19,12 +19,12 @@ show-nav-menu: true
 
 nav-menu:
 - text: About
-  permalink:
+  permalink: about
 - text: Work
-  permalink: work
+  permalink:
 
 # use false to turn off any social media links
-twitter: https://twitter.com/
+twitter: false
 facebook: false
 instagram: false
 github: false
@@ -34,7 +34,7 @@ google-scholar: false
 email: mailto:christine.danh@gmail.com
 
 # footer information
-footer-msg: "powered by love and coffee"
+footer-msg: "powered by ❤️ and ☕"
 footer-msg-link: https://christinedanh.com
 
 # google analytics

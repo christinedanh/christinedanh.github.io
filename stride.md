@@ -1,5 +1,5 @@
 ---
-layout: case-study
+layout: stride
 title: Stride
 subtitle: a case study on making fitness social
 permalink: work/stride
