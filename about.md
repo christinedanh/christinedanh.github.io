@@ -4,10 +4,12 @@ title: About
 permalink: about
 ---
 
-I’m a UI/UX Designer and Developer– I enjoy solving complex problems, creating impactful and user-centered experiences across multiple platforms that are informed by research and data. I am currently a Product Designer at Pond5. I previously was a Senior Developer/Experience Designer at Responsify and an UI/UX Designer at Makr.
+I’m Christine Danh, a Los Angeles-based designer with a background in behavioral science. I like people, learning about people, and creating valuable solutions for people.
 
-I’m passionate about design technology and tools, including developing Figma component libraries and design systems to improve the design process and deliver consistent experiences to users.
+I’m driven by my passion in cultivating an inclusive, caring community. This drive has motivated every one of my career decisions thus far and I am continuously looking to continue that passion in every role I take on.
 
-I founded FOCA Stock in 2013, a free and curated creative asset library. FOCA provides free photos, videos, and templates for commercial use. It has had 1,882,250 sessions and has been featured on Shopify and Canva.
+For six years, I worked in a clinical setting where I wore many hats from therapist to behavioral consultant to behavior analyst. Though I whole-heartedly enjoyed and took pride in the one-on-one impact I was making in a clinical setting, I discovered that with UX Design, it’s possible to create impact at a grander scale while being able to nurture my own joy for artistic creativity and passion for behavioral science.
 
-When I’m not designing, you’ll find me taking photos and exploring the outdoors. I’m also interested in urban mobility, transit, and the future of cities.
+Currently, I’m designing for people with disabilities at startup. I’ve teamed up with a team of researchers and designers to create a product to connect people with disabilities with the help they need.
+
+Offline, you can find me exploring beautiful mother nature with my dear husband and our puppy, Zorro. If not outdoors, I’m likely deep in a book or creating unexpected coffee, tea or cocktail concoctions.

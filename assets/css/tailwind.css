@@ -704,6 +704,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 140px;
 }
 
+.h-36 {
+  height: 9rem;
+}
+
 .max-h-\[140px\] {
   max-height: 140px;
 }
@@ -762,6 +766,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-1\/5 {
   width: 20%;
+}
+
+.w-36 {
+  width: 9rem;
 }
 
 .max-w-max {
@@ -952,6 +960,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-dark-green {
   --tw-bg-opacity: 1;
   background-color: rgb(110 124 123 / var(--tw-bg-opacity));
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .p-4 {
@@ -1264,6 +1277,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-medium-green {
   --tw-text-opacity: 1;
   color: rgb(145 172 169 / var(--tw-text-opacity));
+}
+
+.text-gray-300 {
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity));
 }
 
 .underline {
