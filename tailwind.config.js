@@ -20,6 +20,9 @@ module.exports = {
         serif: ['Lora', ...defaultTheme.fontFamily.serif],
         fraunces: ['Fraunces', ...defaultTheme.fontFamily.serif],
       },
+      boxShadow: {
+        'portfolio': '0px 2.07511px 20px rgba(118, 118, 118, 0.15)',
+      }
     },
   },
 
