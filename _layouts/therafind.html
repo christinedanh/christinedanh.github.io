@@ -5,43 +5,34 @@ layout: default
   {% include nav.html%}
 {% endif %}
 
-<div class="text-dark-primary max-w-[700px] m-auto">
-  <h1 class="text-center mt-24 font-serif font-bold text-6xl">{{ page.title }}</h1>
-  <h1 class="text-center mt-6 mb-8 font-sans font-semibold text-xl tracking-wider">{{ page.subtitle }}</h1>
-  <div class="justify-center flex pb-16">
-    <img src="{{site.baseurl}}/assets/img/therafind-1.png">
+<div class="bg-background-green">
+  <div class="text-dark-primary max-w-[900px] m-auto flex flex-col md:flex-row py-10 md:py-20 items-center">
+    <div class="text-center md:text-left md:mr-12 w-4/5 mb-10 md:mb-0">
+      <h1 class="font-serif font-bold text-5xl mb-9">{{ page.title }}</h1>
+      <div class="mb-6">An end-to-end experience that makes the therapist search simple and painless.</div>
+      <div>This was an independent passion project driven by the challenges my peers and I experienced while seeking therapy during the pandemic.</div>
+    </div>
+    <div class="justify-center flex">
+      <img src="{{site.baseurl}}/assets/img/therafind-1.png">
+    </div>
   </div>
 </div>
-<div class="py-16 bg-light-primary">
-  <div class="text-dark-primary max-w-[700px] m-auto">
-    <div class="mb-8">
-      <div class="font-semibold uppercase mb-2 text-lg text-dark-green">Background</div>
-      <div class="leading-6">{{ page.background }}</div>
-    </div>
-    <div class="mb-8">
-      <div class="font-semibold uppercase mb-2 text-lg text-dark-green">The Challenge</div>
-      <div class="leading-6">{{ page.challenge }}</div>
-    </div>
-    <div class="mb-8">
-      <div class="font-semibold uppercase mb-2 text-lg text-dark-green">The Solution</div>
-      <div class="leading-6">{{ page.solution }}</div>
-    </div>
-    <div class="mb-8">
-      <div class="font-semibold uppercase mb-2 text-lg text-dark-green">Design Approach</div>
-      <div class="leading-6">{{ page.design_approach }}</div>
-    </div>
-    <div class="flex flex-row">
-      <div class="mr-32">
-        <div class="font-semibold uppercase mb-2 text-lg text-dark-green">My Role</div>
-        <div>{{ page.role }}</div>
+<div class="pt-12 md:pt-24 pb-16 md:pb-36">
+  <div class="text-dark-primary max-w-[900px] m-auto">
+    <div class="w-full border border-medium-green rounded py-11 px-16 flex flex-col md:flex-row justify-between">
+      <div class="text-center mb-6 md:mb-0">
+        <div class="uppercase text-dark-green font-semibold mb-2 mx-auto w-[200px]">My role</div>
+        <div>UX Researcher</div>
+        <div>UX Designer</div>
       </div>
-      <div class="mr-32">
-        <div class="font-semibold uppercase mb-2 text-lg text-dark-green">Timeline</div>
-        <div>{{ page.timeline }}</div>
+      <div class="text-center mb-6 md:mb-0">
+        <div class="uppercase text-dark-green font-semibold mb-2 mx-auto w-[200px]">Duration</div>
+        <div>8 weeks</div>
       </div>
-      <div>
-        <div class="font-semibold uppercase mb-2 text-lg text-dark-green">Tools</div>
-        <div>{{ page.tools }}</div>
+      <div class="text-center mb-6 md:mb-0">
+        <div class="uppercase text-dark-green font-semibold mb-2 mx-auto w-[200px]">Tools</div>
+        <div>Figma</div>
+        <div>Marvel</div>
       </div>
     </div>
   </div>
