@@ -5,416 +5,404 @@ layout: default
   {% include nav.html%}
 {% endif %}
 
-<div class="text-dark-primary max-w-[700px] m-auto">
-  <h1 class="text-center mt-24 font-serif font-bold text-6xl">{{ page.title }}</h1>
-  <h1 class="text-center mt-6 mb-8 font-sans font-semibold text-xl tracking-wider">{{ page.subtitle }}</h1>
-  <div class="justify-center flex pb-16">
-    <img src="{{site.baseurl}}/assets/img/postup-1.png">
+<div class="bg-background-gray">
+  <div class="text-dark-primary max-w-full md:max-w-[900px] m-auto flex flex-col md:flex-row py-10 md:py-20 items-center px-4 md:px-0">
+    <div class="text-center md:text-left md:mr-12 w-4/5 mb-10 md:mb-0">
+      <h1 class="font-serif font-bold text-5xl mb-9">{{ page.title }}</h1>
+      <div class="mb-6">A mobile app designed to help remote workers find a puclic place to work.</div>
+      <div>This was a solo project following Google Ventures Design Sprint, a five-day approach modified for a team of one.</div>
+    </div>
+    <div class="justify-center flex">
+      <img src="{{site.baseurl}}/assets/img/postup/postup-1.png">
+    </div>
   </div>
 </div>
-<div class="py-16 bg-light-primary">
-  <div class="text-dark-primary max-w-[700px] m-auto">
-    <div class="mb-8">
-      <div class="font-semibold uppercase mb-2 text-lg text-dark-green">Background</div>
-      <div class="leading-6">{{ page.background }}</div>
-    </div>
-    <div class="mb-8">
-      <div class="font-semibold uppercase mb-2 text-lg text-dark-green">The Challenge</div>
-      <div class="leading-6">{{ page.challenge }}</div>
-    </div>
-    <div class="mb-8">
-      <div class="font-semibold uppercase mb-2 text-lg text-dark-green">The Solution</div>
-      <div class="leading-6">{{ page.solution }}</div>
-    </div>
-    <div class="mb-8">
-      <div class="font-semibold uppercase mb-2 text-lg text-dark-green">Design Approach</div>
-      <div class="leading-6">{{ page.design_approach }}</div>
-    </div>
-    <div class="flex flex-row">
-      <div class="mr-32">
-        <div class="font-semibold uppercase mb-2 text-lg text-dark-green">My Role</div>
-        <div>{{ page.role }}</div>
+<div class="pt-12 md:pt-24 pb-16 md:pb-24 mx-4 md:mx-0">
+  <div class="text-dark-primary max-w-full md:max-w-[900px] m-auto">
+    <div class="w-full border border-black rounded py-11 px-16 flex flex-col md:flex-row justify-between">
+      <div class="text-center mb-6 md:mb-0">
+        <div class="uppercase text-black font-semibold mb-2 mx-auto w-[200px]">My role</div>
+        <div>UX Researcher</div>
+        <div>UX Designer</div>
       </div>
-      <div class="mr-32">
-        <div class="font-semibold uppercase mb-2 text-lg text-dark-green">Timeline</div>
-        <div>{{ page.timeline }}</div>
+      <div class="text-center mb-6 md:mb-0">
+        <div class="uppercase text-black font-semibold mb-2 mx-auto w-[200px]">Duration</div>
+        <div>5 Days</div>
       </div>
-      <div>
-        <div class="font-semibold uppercase mb-2 text-lg text-dark-green">Tools</div>
-        <div>{{ page.tools }}</div>
+      <div class="text-center mb-6 md:mb-0">
+        <div class="uppercase text-black font-semibold mb-2 mx-auto w-[200px]">Tools</div>
+        <div>Figma</div>
+        <div>Marvel</div>
       </div>
     </div>
   </div>
 </div>
-<div class="bg-dark-green h-[184px] flex justify-center items-center px-16">
-  <img class="max-h-[140px]" src="{{site.baseurl}}/assets/img/postup-process.png"></img>
+<div class="text-dark-primary max-w-full md:max-w-[900px] m-auto flex flex-col md:flex-row items-center px-4 md:px-0 mb-20">
+  <div class="w-full md:w-3/4 md:mr-16">
+    <div class="text-lg leading-10 uppercase tracking-wider font-semibold mb-6 text-black">Problem</div>
+    <div class="text-3xl leading-10 font-semibold mb-8 text-black font-serif">Finding a public place to work remotely from should be easy, but that’s not always true.</div>
+    <div class="leading-6 mb-8">PostUp is a new app where freelancers and remote workers share tips and advice. Recently, they started to see a lot of feedback and discussions about how to find good public places to work from. PostUp is looking for solutions to streamline the process for users and charge a monthly subscription fee for the service.</div>
+  </div>
+  <div class="w-3/4 md:w-1/4">
+    <img src="{{site.baseurl}}/assets/img/postup/postup-2.png"></img>
+  </div>
 </div>
-<div id="postup-part-1" class="text-dark-primary max-w-[900px] m-auto pt-24 pb-8">
-  <div class="text-[42px] leading-10 uppercase tracking-widest font-semibold mb-10 text-medium-green">Postup's Constraints</div>
-  <div class="flex gap-x-16">
-    <div>
-      <div class="font-fraunces font-black text-7xl text-dark-green mb-6">1</div>
-      <div class="font-semibold">The solution should be designed as a mobile app since users are on the go and need quick access to places.</div>
+<div class="bg-background-gray">
+  <div class="text-dark-primary max-w-full md:max-w-[900px] m-auto flex flex-col md:flex-row py-10 md:py-20 items-center px-4 md:px-0">
+    <div class="justify-center flex basis-[30%] self-end">
+      <img src="{{site.baseurl}}/assets/img/postup/postup-3.png">
     </div>
-    <div>
-      <div class="font-fraunces font-black text-7xl text-dark-green mb-6">2</div>
-      <div class="font-semibold">PostUp does not own spaces for users to work in; rather they want to help users find places that already exist</div>
-    </div>
-    <div>
-      <div class="font-fraunces font-black text-7xl text-dark-green mb-6">3</div>
-      <div class="font-semibold">PostUp wants to charge a monthly fee to users in exchange for access to information provided by PostUp.</div>
+    <div class="text-center md:text-left md:ml-12 mb-8 md:mb-0 basis-[65%]">
+      <div class="text-lg leading-10 uppercase tracking-wider font-semibold mb-6 text-dark-green text-left">My Solution</div>
+      <div class="text-3xl leading-10 font-semibold mb-8 text-black font-serif text-left">An end-to-end experience making finding a great place to work quick and pain-free.</div>
+      <div class="text-left">Remote workers can easily search, filter, select, and get directions to a suitable remote work place all from one platform.</div>
     </div>
   </div>
 </div>
-<div id="postup-part-1" class="text-dark-primary max-w-[900px] m-auto pt-24">
-  <div class="text-[42px] leading-10 uppercase tracking-widest font-semibold mb-10 text-medium-green">Synthesizing Research</div>
-  <div class="leading-6">On Day 1, I wanted to get a grasp on the problem space and empathize with the users. I started by analyzing the primary research and user interviews provided by PostUp. I took the insights gained from this and updated the persona originally created by PostUp to reflect my new insights.</div>
+<div class="text-dark-primary max-w-full md:max-w-[900px] m-auto px-4 md:px-0  mt-20 md:mt-36">
+  <div class="flex flex-col md:flex-row items-center">
+    <div class="w-full mr-0 md:mr-4">
+      <div class="text-lg leading-10 uppercase tracking-wider font-semibold mb-6 text-black">Constraints</div>
+      <div class="text-left">PostUp had 3 constraints that I needed to work with.</div>
+    </div>
+  </div>
+  <div class="w-full mt-6">
+    <img src="{{site.baseurl}}/assets/img/postup/postup-4.png"></img>
+  </div>
 </div>
-<div>
-  <img class="mx-auto" src="{{site.baseurl}}/assets/img/postup-2.png"></img>
+<div class="bg-black mt-36">
+  <div class="md:max-w-[900px] mx-auto font-serif text-3xl py-14 text-white px-4 md:px-0">Day 1: Understand & Map</div>
 </div>
-<div class="text-dark-primary max-w-[900px] m-auto">
-  <div class="leading-6">I also took note of the <b>eight main amenities and details users want to know</b> about a work place before committing to it.</div>
-  <div class="grid grid-cols-2 grid-rows-4 grid-flow-col mt-6 mb-28 gap-y-2">
-    <div class="flex items-center">
-      <div class="font-fraunces font-black text-7xl text-dark-green w-8 mr-12">1</div>
-      <div>Wifi reliability and costs</div>
+<div class="text-dark-primary max-w-full md:max-w-[900px] m-auto px-4 md:px-0  mt-20 md:mt-36">
+  <div class="flex flex-col md:flex-row items-center">
+    <div class="w-full mr-0 md:mr-4">
+      <div class="text-lg leading-10 uppercase tracking-wider font-semibold mb-6 text-black">User Persona</div>
+      <div class="text-left w-full md:w-2/3">On Day 1, I wanted to get a grasp on the problem space and empathize with PostUp’s users. I started by analyzing the primary research and user interviews provided by PostUp. I took the insights gained from this and updated the persona (originally created by PostUp) to reflect my new insights.</div>
     </div>
-    <div class="flex items-center">
-      <div class="font-fraunces font-black text-7xl text-dark-green w-8 mr-12">2</div>
-      <div>Outlet availability</div>
+  </div>
+  <div class="w-full mt-6">
+    <img src="{{site.baseurl}}/assets/img/postup/postup-5.png"></img>
+  </div>
+</div>
+<div class="text-dark-primary max-w-full md:max-w-[900px] m-auto px-4 md:px-0  mt-20 md:mt-36">
+  <div class="flex flex-col md:flex-row items-center">
+    <div class="w-full mr-0 md:mr-4">
+      <div class="text-lg leading-10 uppercase tracking-wider font-semibold mb-6 text-black">Notable Insights</div>
+      <div class="text-left w-full md:w-2/3">From synthesizing data provided by PostUp, I identified <b>eight amenities and details users want to know about</b> before committing to working at a particular work space.</div>
     </div>
-    <div class="flex items-center">
-      <div class="font-fraunces font-black text-7xl text-dark-green w-8 mr-12">3</div>
-      <div>Atmosphere (noise and crowd)</div>
+  </div>
+  <div class="w-full mt-6">
+    <img src="{{site.baseurl}}/assets/img/postup/postup-6.png"></img>
+  </div>
+</div>
+<div class="bg-background-gray mt-24">
+  <div class="text-dark-primary max-w-[900px] m-auto flex flex-col md:flex-row py-10 md:py-20 items-center px-4 md:px-0">
+    <div class="text-center md:text-left md:mr-12 mb-8 md:mb-0 basis-[65%] mr-20">
+      <div class="text-lg leading-10 uppercase tracking-wider font-semibold mb-6 text-black text-left">Problem Statement</div>
+      <div class="text-3xl leading-10 font-semibold mb-8 text-black font-serif text-left">How might we make searching for a suitable work space simple and quick for remote workers?</div>
+      <div class="text-left">With an understanding of PostUp’s users, I was able to define the key problems to solve and refine my problem statement.</div>
     </div>
-    <div class="flex items-center">
-      <div class="font-fraunces font-black text-7xl text-dark-green w-8 mr-12">4</div>
-      <div>Distance from location</div>
-    </div>
-    <div class="flex items-center">
-      <div class="font-fraunces font-black text-7xl text-dark-green w-8 mr-12">5</div>
-      <div>Food and drink options</div>
-    </div>
-    <div class="flex items-center">
-      <div class="font-fraunces font-black text-7xl text-dark-green w-8 mr-12">6</div>
-      <div>Restrooms availability</div>
-    </div>
-    <div class="flex items-center">
-      <div class="font-fraunces font-black text-7xl text-dark-green w-8 mr-12">7</div>
-      <div>Layout and seating situation</div>
-    </div>
-    <div class="flex items-center">
-      <div class="font-fraunces font-black text-7xl text-dark-green w-8 mr-12">8</div>
-      <div>Reviews from remote workers</div>
+    <div class="justify-center flex basis-[30%] self-end">
+      <img src="{{site.baseurl}}/assets/img/postup/postup-8.png">
     </div>
   </div>
 </div>
-<div id="postup-part-2" class="text-dark-primary max-w-[900px] m-auto pt-24 mb-28">
-  <div class="text-[42px] leading-10 uppercase tracking-widest font-semibold mb-10 text-medium-green">Defining the problem</div>
-  <div class="leading-6">With an understanding of our users, we were able to define the key problems to solve. Our core question became:</div>
-  <div class="text-4xl text-dark-green mt-9 font-semibold">How might we make searching for a public work space simple and quick for remote workers?</div>
+<div class="text-dark-primary max-w-full md:max-w-[900px] m-auto px-4 md:px-0  mt-20 md:mt-36">
+  <div class="flex flex-col md:flex-row items-center">
+    <div class="w-full mr-0 md:mr-4">
+      <div class="text-lg leading-10 uppercase tracking-wider font-semibold mb-6 text-black">Map</div>
+      <div class="text-left w-full md:w-2/3">Having a clear understanding of the problem I was solving, I jumped right into exploring possible solutions. Of the handful of ideas I sketched out, the one below best addressed the problem and conveyed my solution.</div>
+    </div>
+  </div>
+  <div class="w-full mt-6">
+    <img src="{{site.baseurl}}/assets/img/postup/postup-9.png"></img>
+  </div>
 </div>
-<div class="text-dark-primary max-w-[900px] m-auto pt-24 mb-8">
-  <div class="text-[42px] leading-10 uppercase tracking-widest font-semibold mb-10 text-medium-green">Map</div>
-  <div class="leading-6">With an understanding of the problem and the user, I jumped right into exploring possible solutions. Of the handful of ideas I sketched out, the one below best addressed the problem and conveyed my solution.</div>
+<div class="bg-black mt-36">
+  <div class="md:max-w-[900px] mx-auto font-serif text-3xl py-14 text-white px-4 md:px-0">Day 2: Sketch</div>
 </div>
-<div class="mb-36">
-  <img class="mx-auto" src="{{site.baseurl}}/assets/img/postup-3.png"></img>
+<div class="text-dark-primary max-w-full md:max-w-[900px] m-auto px-4 md:px-0 mt-20 md:mt-36">
+  <div class="">
+    <div class="w-full mb-12">
+      <div class="text-lg leading-10 uppercase tracking-wider font-semibold mb-6 text-black">Lightning Demos</div>
+      <div class="text-left w-full">To start off Day 2, I spent about 30 minutes getting inspiration from existing solutions for similar problems. I specifically looked at popular apps and websites that provided some sort of directory to help users find something they’re looking for.</div>
+    </div>
+    <div>
+      <div class="font-semibold">Yelp</div>
+      <div class="flex flex-col md:flex-row items-center">
+        <div class="w-full md:w-3/5">
+          <div>First, I chose to look at Yelp because it’s usually one of the first apps I turn to when looking for a place to work. I took special note of:</div>
+          <ul class="list-disc list-outside pl-6 mb-6">
+            <li>Beneficiaries rely on support providers to access their environment.</li>
+            <li>Support providers are primarily freelancers who find work/assignements through agencies.</li>
+          </ul>
+        </div>
+        <div class="w-full md:w-2/5">
+          <img src="{{site.baseurl}}/assets/img/postup/postup-10.png"></img>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="font-semibold">Google Maps</div>
+      <div class="flex flex-col md:flex-row items-start">
+        <div class="mt-10 w-full md:w-3/5">
+          <div>I then jumped over to Google Maps, which is where I would usually look next. I took inspiration from a few features from Google Maps:</div>
+          <ul class="list-disc list-outside pl-6 mb-6">
+            <li>The <b>“popular times”</b> section would be helpful for PostUp users since many users spoke about looking for quiet spaces and avoiding crowds</li>
+            <li>The ability to get directions to the location</li>
+            <li>A <b>map that shows all nearby locations</b> as well as the user’s location so that users can gauge how far they are</li>
+            <li>A <b>results list with tags</b> showing the users important filters that they may have selected</li>
+          </ul>
+        </div>
+        <div class="w-full md:w-2/5">
+          <img src="{{site.baseurl}}/assets/img/postup/postup-11.png"></img>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="font-semibold">Airbnb</div>
+      <div class="flex flex-col md:flex-row items-start">
+        <div class="mt-10 w-full md:w-3/5">
+          <div>Next, I decided to look at Airbnb. Though it does not provide the exact solution of finding a public place to work, it provides a similar solution of helping users find short-term places to live. One thing stood out to me:</div>
+          <ul class="list-disc list-outside pl-6 mb-6">
+            <li>A pain point for PostUp users is that most apps and websites mainly review the food and service of a place. On Airbnb’s app, <b>ratings are divided into six categories</b>. This gives more transparency on how a listing is rated. A similar feature would be highly beneficial for PostUp users to see ratings for food vs. workability.</li>
+          </ul>
+        </div>
+        <div class="w-full md:w-2/5">
+          <img src="{{site.baseurl}}/assets/img/postup/postup-12.png"></img>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="font-semibold">Workfrom</div>
+      <div class="flex flex-col md:flex-row items-start">
+        <div class="mt-10 w-full md:w-3/5">
+          <div>Interested in seeing if there’s an existing app or website that helps remote workers find public places to work, I did a quick search and found Workfrom. I was inspired by how simple, yet valuable its content is.</div>
+          <ul class="list-disc list-outside pl-6 mb-6">
+            <li><b>Only the most important and most used filters are listed</b> on the homepage</li>
+            <li>The profile page <b>clearly lists out work-related details and amenities</b> (number of places to charge, type of seating, noise level, type of space, etc.)</li>
+          </ul>
+        </div>
+        <div class="w-full md:w-2/5">
+          <img src="{{site.baseurl}}/assets/img/postup/postup-13.png"></img>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
-
-<div class="text-dark-primary max-w-[900px] m-auto pb-8">
-  <div class="text-[42px] leading-10 uppercase tracking-widest font-semibold mb-10 text-medium-green">Lightning Demos</div>
-  <div class="leading-6 mb-11">To start off Day 2, I spent about 30 minutes getting inspiration from exisiting solutions for similar problems. I specifically looked at popular apps and websites that provided some sort of directory to help users find something they're looking for.</div>
-  <div class="flex items-center space-x-8 mb-11">
-    <div class="w-[50%] self-start">
-      <div class="mb-4 font-semibold text-4xl text-medium-green">Yelp</div>
-      <div>First, I chose to look at Yelp because it's usually one of the first apps I turn to when looking for a place to work. I took special note of</div>
-      <ul class="list-disc list-outside pl-5 leading-7">
-        <li>Yelp's <b>detailed and clear map</b></li>
-        <li>The way it presents its <b>filters</b> on the search page</li>
+<div class="text-dark-primary max-w-full md:max-w-[900px] m-auto px-4 md:px-0  mt-20 md:mt-36">
+  <div class="flex flex-col md:flex-row items-center">
+    <div class="w-full mr-0 md:mr-4">
+      <div class="text-lg leading-10 uppercase tracking-wider font-semibold mb-6 text-black">Crazy Eights</div>
+      <div class="text-left w-full md:w-3/4 mb-6">Looking back at Day 1’s map, I deduced that the “browse work space options” would be the most critical screen for PostUp. This screen is where users would look at all possible work options, compare them, and make a selection. Prior to this screen, users would have already inputted their location and selected their special requirements.</div>
+      <div class="text-left w-full md:w-3/4 mb-6">Using inspiration from other successful apps and keeping users’ needs and pain points at the forefront, I began to sketch variations of the critical screen. I used the Crazy Eights method, sketching eight ideas in eight minutes. Here’s what I came up with:</div>
+    </div>
+  </div>
+  <div class="w-full mt-6">
+    <img src="{{site.baseurl}}/assets/img/postup/postup-14.png"></img>
+  </div>
+  <div class="w-full mt-6">
+    <img src="{{site.baseurl}}/assets/img/postup/postup-15.png"></img>
+  </div>
+</div>
+<div class="text-dark-primary max-w-full md:max-w-[900px] m-auto px-4 md:px-0  mt-20 md:mt-36">
+  <div class="flex flex-col md:flex-row items-center">
+    <div class="w-full mr-0 md:mr-4">
+      <div class="text-lg leading-10 uppercase tracking-wider font-semibold mb-6 text-black">Solution Sketch</div>
+      <div class="text-left w-full md:w-3/4 mb-6">From the eight solutions I sketched above, I selected one design that best fulfilled the role of solving the user's problem. I then sketched out the screens that would come before and after it. This solution sketch gave me an idea of how the user would interact with the interface.</div>
+    </div>
+  </div>
+  <div class="w-full mt-6">
+    <img src="{{site.baseurl}}/assets/img/postup/postup-16.png"></img>
+  </div>
+</div>
+<div class="bg-black mt-36">
+  <div class="md:max-w-[900px] mx-auto font-serif text-3xl py-14 text-white px-4 md:px-0">Day 3: Wireframe</div>
+</div>
+<div class="text-dark-primary max-w-[900px] m-auto mt-20 md:mt-36 flex flex-col items-start px-4 md:px-0">
+  <div class="w-full">
+    <div class="text-lg leading-10 uppercase tracking-wider font-semibold mb-6 text-black">Wireframe</div>
+    <div class="leading-6 mb-10 w-full md:w-3/4">On Day 3, I sketched out a lightweight wireframe for the remainder of the screens. I made sure to include the necessary elements that I'd need to build the prototype. Here’s how I envisioned the app working:</div>
+    <div class="flex flex-col md:flex-row items-center mb-10">
+      <div class="w-full md:w-1/4">
+        <img src="{{site.baseurl}}/assets/img/postup/postup-17.png"></img>
+      </div>
+      <div class="w-full md:w-3/4 md:ml-24 mt-10 md:mt-0">
+        <div class="text-2xl leading-8 font-semibold mb-8 text-black font-serif">1) Users are prompted to sign up or log in.</div>
+        <ul class="list-disc list-outside pl-6 mb-6">
+          <li>This is where the user’s journey begins.</li>
+          <li>Returning users can select to sign in.</li>
+          <li>New users will be guided to create an account.</li>
+          <li>Since PostUp wants to charge monthly fees to access their information, I noted down the idea of adding a free trial option for users who are not ready to commit just yet.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="flex flex-col md:flex-row items-center mb-10">
+      <div class="w-full md:w-3/4 md:mr-24 mt-10 md:mt-0">
+        <div class="text-2xl leading-8 font-semibold mb-8 text-black font-serif">2) New users will create an account.</div>
+        <ul class="list-disc list-outside pl-6 mb-6">
+          <li>New users will create an account on this page.</li>
+          <li>This is also where payment information will be collected for PostUp’s monthly subscription fee.</li>
+        </ul>
+      </div>
+      <div class="w-full md:w-1/4">
+        <img src="{{site.baseurl}}/assets/img/postup/postup-18.png"></img>
+      </div>
+    </div>
+    <div class="flex flex-col md:flex-row items-center mb-10">
+      <div class="w-full md:w-1/4">
+        <img src="{{site.baseurl}}/assets/img/postup/postup-19.png"></img>
+      </div>
+      <div class="w-full md:w-3/4 md:ml-24 mt-10 md:mt-0">
+        <div class="text-2xl leading-8 font-semibold mb-8 text-black font-serif">3) Users start the search by inputting the location they’re looking to work in.</div>
+        <ul class="list-disc list-outside pl-6 mb-6">
+          <li>In order to populate relevant work places, users are prompted to input their location of choice.</li>
+          <li>Users can either select to use their current location or input a different location if they’re not currently in the area of where they will be working.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="flex flex-col md:flex-row items-center mb-10">
+      <div class="w-full md:w-3/4 md:mr-24 mt-10 md:mt-0">
+        <div class="text-2xl leading-8 font-semibold mb-8 text-black font-serif">4) Users are then shown the work spaces around the area they searched for.</div>
+        <ul class="list-disc list-outside pl-6 mb-6">
+          <li>Users are shown a map of places to work near the area that they inputted.</li>
+          <li>Places are labeled by type of facility and ratings</li>
+          <li>From this page, users have the option to filter for their needs. </li>
+        </ul>
+      </div>
+      <div class="w-full md:w-1/4">
+        <img src="{{site.baseurl}}/assets/img/postup/postup-20.png"></img>
+      </div>
+    </div>
+    <div class="flex flex-col md:flex-row items-center mb-10">
+      <div class="w-full md:w-1/4">
+        <img src="{{site.baseurl}}/assets/img/postup/postup-21.png"></img>
+      </div>
+      <div class="w-full md:w-3/4 md:ml-24 mt-10 md:mt-0">
+        <div class="text-2xl leading-8 font-semibold mb-8 text-black font-serif">5) Users then filter by their needs, learn more about each work space, and get directions to the location they choose to work at.</div>
+        <ul class="list-disc list-outside pl-6 mb-6">
+          <li>These next three screens were discussed in the previous section (section: solution screens)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="bg-black mt-36">
+  <div class="md:max-w-[900px] mx-auto font-serif text-3xl py-14 text-white px-4 md:px-0">Day 4: Prototype</div>
+</div>
+<div class="text-dark-primary max-w-full md:max-w-[900px] m-auto px-4 md:px-0  mt-20 md:mt-36">
+  <div class="flex flex-col md:flex-row items-center">
+    <div class="w-full mr-0 md:mr-4">
+      <div class="text-lg leading-10 uppercase tracking-wider font-semibold mb-6 text-black">Creating the Prototype</div>
+      <div class="text-left w-full md:w-3/4 mb-6">Day 4 took us to prototyping. With the sketched wireframe from Day 3, I used Figma to create the high fidelity prototype. The high fidelity version is similar to the sketches in most ways. Here is a side-by-side of the iterations of each screen. </div>
+    </div>
+  </div>
+  <div class="w-full my-6">
+    <img src="{{site.baseurl}}/assets/img/postup/postup-22.png"></img>
+  </div>
+  <div class="flex flex-col md:flex-row items-center">
+    <div class="w-full">
+      <div class="text-left w-full mb-6 font-semibold">Key changes and additions:</div>
+      <ul class="list-disc list-outside pl-6 mb-6">
+        <li>Changed the CTA from “Get started” to “Start your 7-day free trial” for more clarity of what the user is signing up for.</li>
+        <li>Since users are not expected to pay for their account until the free trial is over, I removed the user’s need to input payment information. This may help users feel more comfortable moving forward with creating their account.</li>
+        <li>I added the ability to sign up with Facebook or Google to speed up the sign up process.</li>
+        <li>The initial results page originally only provided a map of the results. In the hi-fi, I added a list to provide more information about each work place.</li>
       </ul>
     </div>
-    <div>
-      <img class="mx-auto" src="{{site.baseurl}}/assets/img/postup-4.png"></img>
+  </div>
+</div>
+<div class="bg-black mt-36">
+  <div class="md:max-w-[900px] mx-auto font-serif text-3xl py-14 text-white px-4 md:px-0">Day 5: Test</div>
+</div>
+<div class="text-dark-primary max-w-full md:max-w-[900px] m-auto px-4 md:px-0  mt-20 md:mt-36">
+  <div class="flex flex-col md:flex-row items-center">
+    <div class="w-full mr-0 md:mr-4">
+      <div class="text-lg leading-10 uppercase tracking-wider font-semibold mb-6 text-black">Testing the Prototype</div>
+      <div class="text-left w-full md:w-3/4 mb-6">On Day 5, I went out and tested the prototype with five users. I specifically looked for test participants who work remotely in public places at least once per week. Users expressed that the prototype was straightforward and easy to navigate. No major usability issues were found, but minor issues and interesting insights were uncovered.</div>
     </div>
   </div>
-  <div class="flex items-center space-x-4 mb-11">
-    <div class="w-[50%] self-start">
-      <div class="mb-4 font-semibold text-4xl text-medium-green">Google Maps</div>
-      <div>I then jumped over to Google Maps, which is where I would usually look next. I took inspiration from a few features from Google Maps:</div>
-      <ul class="list-disc list-outside pl-5 leading-7">
-        <li>The "<b>popular times</b>" section would be helpful for PostUp users since many users spoke about looking for quiet spaces and avoiding crowds</li>
-        <li>The ability to get directions to the location</li>
-        <li>A <b>map that shows all nearby locations</b> as well as the user's location so that users can gauge how far they are</li>
-        <li>A <b>results list with tags</b> showing the users important filters that they may have selected</li>
-      </ul>
-    </div>
+  <div class="mt-6 mb-5 max-w-full md:max-w-[900px] m-auto px-4 md:px-0">
+    <div class="leading-8 font-semibold mb-8 text-medium-green">Findings</div>
     <div>
-      <img class="mx-auto" src="{{site.baseurl}}/assets/img/postup-5.png"></img>
-    </div>
-  </div>
-  <div class="flex items-center space-x-4 mb-11">
-    <div class="w-[50%] self-start">
-      <div class="mb-4 font-semibold text-4xl text-medium-green">Airbnb</div>
-      <div>Next, I decided to look at Airbnb. Though it does not provide the exact solution of finding a public place to work, it provides a similar solution of helping users find short-term places to live. One thing stood out to me:</div>
-      <ul class="list-disc list-outside pl-5 leading-7">
-        <li>A pain point for PostUp users is that most apps and websites mainly review the food and service of a place. On Airbnb's app, <b>ratings are divided into six categories.</b> This gives more transparency on how a listing is rated. A similar feature would be highly beneficial for PostUp users to see ratings for food vs. workability.</li>
-      </ul>
-    </div>
-    <div>
-      <img class="mx-auto" src="{{site.baseurl}}/assets/img/postup-6.png"></img>
-    </div>
-  </div>
-  <div class="flex items-center space-x-4 mb-11">
-    <div class="w-[50%] self-start">
-      <div class="mb-4 font-semibold text-4xl text-medium-green">Workfrom</div>
-      <div>Interested in seeing if there's an existing app or website that helps remote workers find public places to work, I did a quick search and found Workfrom. I was inspired by how simple, yet valuable its content is.</div>
-      <ul class="list-disc list-outside pl-5 leading-7">
-        <li><b>Only the most important and most used filters are listed</b> on the homepage</li>
-        <li>The profile page <b>clearly lists out work-related details and amenities</b> (number of places to charge, type of seating, noise level, type of space, etc.)</li>
-      </ul>
+      <div class="flex">
+        <div class="w-1/5 shrink-0">Issue #1</div>
+        <div class="">A couple users noted that in a real scenario, they would abandon the app upon seeing “start your 7-day free trial” because it implied that they may need to create an account and input payment information before knowing much about the app.</div>
+      </div>
+      <div class="flex">
+        <div class="font-semibold w-1/5 shrink-0">Solution</div>
+        <div class="font-semibold">In the next iteration, I delayed account creation. Once opening the app, users have access to a free version of the app that provides limited functionality. After browsing, users are prompted to create an account to continue using the app.</div>
+      </div>
+      <div class="my-8">
+        <img class="mx-auto" src="{{site.baseurl}}/assets/img/postup/postup-23.png"></img>
+      </div>
     </div>
     <div>
-      <img class="mx-auto" src="{{site.baseurl}}/assets/img/postup-7.png"></img>
-    </div>
-  </div>
-</div>
-<div id="postup-part-3" class="text-dark-primary max-w-[900px] m-auto pb-8">
-  <div class="text-[42px] leading-10 uppercase tracking-widest font-semibold mb-10 text-medium-green">Crazy Eights</div>
-  <div class="leading-6 mb-6">Looking back at Day 1's map, I deduced that the "browse work space options" would be the most critical screen for PostUp. This screen is where users would look at all possible work options, compare them, and make a selection. Prior to this screen, users would have already inputted their location and selected their special requirements.</div>
-  <div>With a clear understanding of PostUp's users and inspiration from other successful apps, I began to sketch variations of the critical screen. I used the Crazy Eights method, sketching eight ideas in eight minutes. Here's what I came up with:</div>
-</div>
-<div class="mb-8">
-  <img class="mx-auto" src="{{site.baseurl}}/assets/img/postup-8.png"></img>
-</div>
-<div class="mb-28">
-  <img class="mx-auto" src="{{site.baseurl}}/assets/img/postup-9.png"></img>
-</div>
-<div class="text-dark-primary max-w-[900px] m-auto pb-8">
-  <div class="text-[42px] leading-10 uppercase tracking-widest font-semibold mb-10 text-medium-green">Solution Sketch</div>
-  <div class="leading-6 mb-6">From the eight solutions I sketched above, I selected one design that best fulfilled the role of solving the user's problem. I then sketched out the screens that would come before and after it. This solution sketch gave me an idea of how the user would interact with the interface.</div>
-</div>
-<div class="mb-8">
-  <img class="mx-auto" src="{{site.baseurl}}/assets/img/postup-10.png"></img>
-</div>
-<div class="mb-28">
-  <img class="mx-auto" src="{{site.baseurl}}/assets/img/postup-11.png"></img>
-</div>
-<div class="text-dark-primary max-w-[900px] m-auto pb-8 mb-28">
-  <div class="text-[42px] leading-10 uppercase tracking-widest font-semibold mb-10 text-medium-green">Storyboard</div>
-  <div class="leading-6 mb-10">On Day 3, I sketched out a lightweight wireframe for the remainder of the screens. I made sure to include the necessary elements that I'd need to build the prototype.</div>
-  <div class="flex items-start space-x-8 mb-10">
-    <div class="w-1/4 flex-none">
-      <img class="mx-auto" src="{{site.baseurl}}/assets/img/postup-12.png"></img>
+      <div class="flex">
+        <div class="w-1/5 shrink-0">Issue #2</div>
+        <div class="">Users commented that the “details” section looked like clickable buttons.</div>
+      </div>
+      <div class="flex">
+        <div class="font-semibold w-1/5 shrink-0">Solution</div>
+        <div class="font-semibold">I changed the format of this section into a chart so it better conveys that it is informational content.</div>
+      </div>
+      <div class="my-8">
+        <img class="mx-auto" src="{{site.baseurl}}/assets/img/postup/postup-24.png"></img>
+      </div>
     </div>
     <div>
-      <div><b>Sign up or login</b></div>
-      <ul class="list-disc list-outside pl-5 leading-7">
-        <li>This is where the user's journey begins.</li>
-        <li>Returning users can select to sign in.</li>
-        <li>New users will be guided to create an account</li>
-        <li>Since PostUp wants to charge monthly fees to access their information, I noted down the idea of adding a free trial option for users who are not ready to commit just yet.</li>
-      </ul>
-    </div>
-  </div>
-  <div class="flex items-start space-x-8 mb-10">
-    <div class="w-1/4 flex-none">
-      <img class="mx-auto" src="{{site.baseurl}}/assets/img/postup-13.png"></img>
-    </div>
-    <div>
-      <div><b>Create an account</b></div>
-      <ul class="list-disc list-outside pl-5 leading-7">
-        <li>New users will create an account on this page.</li>
-        <li>This is also where payment information will be collected for PostUp's monthly subscription fee.</li>
-      </ul>
-    </div>
-  </div>
-  <div class="flex items-start space-x-8 mb-10">
-    <div class="w-1/4 flex-none">
-      <img class="mx-auto" src="{{site.baseurl}}/assets/img/postup-14.png"></img>
-    </div>
-    <div>
-      <div><b>Enter location</b></div>
-      <ul class="list-disc list-outside pl-5 leading-7">
-        <li>In order to populate relevant work places, users are prompted to input their location of choice.</li>
-        <li>Users can either select to use their current location or input a different location if they're not currently in the area of where they will be working.</li>
-      </ul>
-    </div>
-  </div>
-  <div class="flex items-start space-x-8 mb-10">
-    <div class="w-1/4 flex-none">
-      <img class="mx-auto" src="{{site.baseurl}}/assets/img/postup-15.png"></img>
-    </div>
-    <div>
-      <div><b>Initial results</b></div>
-      <ul class="list-disc list-outside pl-5 leading-7">
-        <li>Users are shown a map of places to work near the area that they inputted.</li>
-        <li>Places are labeled by type of facility and ratings.</li>
-        <li>From this page, users have the option to filter for their needs.</li>
-      </ul>
-    </div>
-  </div>
-  <div class="flex items-start space-x-8 mb-10">
-    <div class="w-1/4 flex-none">
-      <img class="mx-auto" src="{{site.baseurl}}/assets/img/postup-16.png"></img>
-    </div>
-    <div>
-      <div><b>Filter, updated results, profile page</b></div>
-      <ul class="list-disc list-outside pl-5 leading-7">
-        <li>These next three screens were discussed previously.</li>
-      </ul>
+      <div class="flex">
+        <div class="w-1/5 shrink-0">Issue #3</div>
+        <div class="">One user noted that she was not sure if her account was created after clicking “create my account.”</div>
+      </div>
+      <div class="flex">
+        <div class="font-semibold w-1/5 shrink-0">Solution</div>
+        <div class="font-semibold">This was a fair point since users are not given any feedback once they’ve clicked “create account.” I added a pop-up to inform users that their account was created.</div>
+      </div>
+      <div class="my-8">
+        <img class="mx-auto" src="{{site.baseurl}}/assets/img/postup/postup-25.png"></img>
+      </div>
     </div>
   </div>
 </div>
-<div id="postup-part-4" class="text-dark-primary max-w-[900px] m-auto">
-  <div class="text-[42px] leading-10 uppercase tracking-widest font-semibold mb-10 text-medium-green">Creating the prototype</div>
-  <div class="leading-6">Day 4 took us to prototyping. With the sketched wireframe from Day 3, I used Figma to create the high fidelity prototype. The high fidelity version is similar to the sketches in most ways. Here is a side-by-side of the screens from sketches to prototype.</div>
-</div>
-<div class="mb-8">
-  <img class="mx-auto" src="{{site.baseurl}}/assets/img/postup-17.png"></img>
-</div>
-<div class="text-dark-primary max-w-[900px] m-auto mb-28">
-  <div class="text-[25px] leading-10 font-semibold mb-4">Key changes and additions</div>
-  <ul class="list-disc list-outside pl-5 leading-7">
-    <li>Changed the CTA from "Get started" to "Start your 7-day free trial" for more clarity of what the user is signing up for.</li>
-    <li>Since users are not expected to pay for their account until the free trial is over, I removed the user's need to input payment information. This may help users feel more comfortable moving forward with creating their account.  </li>
-    <li>I added the ability to sign up with Facebook or Google to speed up the sign up process.</li>
-    <li>The initial results page originally only provided a map of the results. In the hi-fi, I added a list to provide more information about each work place.</li>
-  </ul>
-</div>
-
-<div id="postup-part-5" class="text-dark-primary max-w-[900px] m-auto mb-28">
-  <div class="text-[42px] leading-10 uppercase tracking-widest font-semibold mb-10 text-medium-green">Testing the prototype</div>
-  <div class="leading-6 mb-16">On Day 5, I went out and tested the prototype with five users. I specifically looked for test participants who work remotely in public places at least once per week. Users expressed that the prototype was straightforward and easy to navigate. No major usability issues were found, but minor issues and interesting insights were uncovered.</div>
-  <div class="mb-4 font-semibold text-4xl text-medium-green">Findings</div>
-  <div class="mt-6 mb-5">
-    <div class="flex">
-      <div class="w-1/5 shrink-0">Issue #1</div>
-      <div class="">A couple users noted that in a real scenario, they would abandon the app upon seeing "start your 7-day free trial" because it implied that they may need to create an account and input payment information before knowing much about the app.</div>
-    </div>
-    <div class="flex">
-      <div class="font-semibold w-1/5 shrink-0">Solution</div>
-      <div class="font-semibold">In the next iteration, I delayed account creation. Once opening the app, users have access to a free version of the app that provides limited functionality. After browsing, users are prompted to create an account to continue using the app.</div>
-    </div>
+<div class="text-dark-primary max-w-[900px] m-auto mt-20 md:mt-36 flex flex-col items-start px-4 md:px-0 mb-20 md:mb-24">
+  <div class="w-full mr-2 md:w-4/5">
+    <div class="text-lg leading-10 uppercase tracking-wider font-semibold mb-6 text-black">Interactive Prototype</div>
+    <div class="text-3xl leading-10 font-semibold text-black font-serif">Check out the current iteration!</div>
   </div>
-  <div class="mb-8">
-    <img class="mx-auto" src="{{site.baseurl}}/assets/img/postup-18.png"></img>
-  </div>
-  <div class="mt-6 mb-5">
-    <div class="flex">
-      <div class="w-1/5 shrink-0">Issue #2</div>
-      <div class="">Users commented that the "details" section looked like clickable buttons.</div>
-    </div>
-    <div class="flex">
-      <div class="font-semibold w-1/5 shrink-0">Solution</div>
-      <div class="font-semibold">I changed the format of this section into a chart so it better conveys that it is informational content.</div>
-    </div>
-  </div>
-  <div class="mb-8">
-    <img class="mx-auto" src="{{site.baseurl}}/assets/img/postup-19.png"></img>
-  </div>
-  <div class="mt-6 mb-5">
-    <div class="flex">
-      <div class="w-1/5 shrink-0">Issue #3</div>
-      <div class="">One user noted that she was not sure if her account was created after clicking "create my account." </div>
-    </div>
-    <div class="flex">
-      <div class="font-semibold w-1/5 shrink-0">Solution</div>
-      <div class="font-semibold">This was a fair point since users are not given any feedback once they've clicked "create account." I added a pop-up to inform users that their account was created.</div>
-    </div>
-  </div>
-  <div class="mb-8">
-    <img class="mx-auto" src="{{site.baseurl}}/assets/img/postup-19.png"></img>
-  </div>
-  <div class="flex flex-col items-center">
-    <div class="font-semibold text-medium-green text-3xl">Check out the current iteration!</div>
-    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" class="my-4" width="500" height="800" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FvTcjDrvtwIemgABLdEn8Eg%2FPostUp%3Fpage-id%3D110%253A31%26node-id%3D110%253A396%26viewport%3D125%252C-164%252C0.18%26scaling%3Dscale-down%26starting-point-node-id%3D110%253A396" allowfullscreen></iframe>
-    <div class="font-semibold">Interactive prototype</div>
+  <div class="w-full mt-8 flex justify-center">
+    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" class="my-4" width="500" height="800" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FEa3Ge4iEcIYSwH76uSAbNf%2FCapstone-1-v2%3Fpage-id%3D92%253A836%26node-id%3D92%253A1981%26viewport%3D147%252C507%252C0.15%26scaling%3Dscale-down%26starting-point-node-id%3D92%253A1981" allowfullscreen></iframe>
   </div>
 </div>
-<div class="text-dark-primary max-w-[900px] m-auto pb-8">
-  <div class="text-4xl leading-10 uppercase tracking-widest font-semibold mb-5 text-medium-green">What I learned</div>
-  <div class="leading-6 mb-6">The initial thought of completing a project in five days sounded daunting to me, but I found that it was completely doable, especially when following a structure. I applied more pressure to myself with this project, staying strict with time boxing each phase of the process. I surprised myself with how quickly I was able to work. I generally get stuck on making things perfect before I go on to the next step. Moving rapidly for this design sprint did not allow me to get stuck on perfection, which in turn warmed me up to imperfection.</div>
+<div class="bg-black mt-36">
+  <div class="md:max-w-[900px] mx-auto font-serif text-3xl py-14 text-white px-4 md:px-0">Conclusions</div>
+</div>
+<div class="text-dark-primary max-w-full md:max-w-[900px] m-auto px-4 md:px-0 my-20 md:my-36">
+  <div class="flex flex-col md:flex-row items-center">
+    <div class="w-full mr-0 mb-6">
+      <div class="text-lg leading-10 uppercase tracking-wider font-semibold mb-6 text-black">What I Learned</div>
+      <div class="text-left w-full mb-4">The initial thought of completing a project in five days sounded daunting to me, but I found that it was completely doable, especially when following a structure. I applied more pressure to myself with this project, staying strict with time boxing each phase of the process. I surprised myself with how quickly I was able to work. I generally get stuck on making things perfect before I go on to the next step. Moving rapidly for this design sprint did not allow me to get stuck on perfection, which in turn warmed me up to imperfection. </div>
+    </div>
+  </div>
   <div>Overall, I had so much fun with this design sprint! The biggest wins were:</div>
-  <ol class="list-decimal list-outside pl-6 leading-7 mt-2">
+  <ul class="list-disc list-outside pl-6">
     <li>Learning a new design approach</li>
     <li>Learning to work more efficiently</li>
-  </ol>
+  </ul>
 </div>
-
-<script>
-  const header = document.getElementById('header');
-  header.style.backgroundColor = "#6E7C7B";
-  const headerImg = document.getElementById('header-img');
-  headerImg.src = "{{site.baseurl}}/assets/img/postup-process-1.png";
-
-  let waypoint1 = new Waypoint({
-    element: document.getElementById('postup-part-1'),
-    handler: function(direction) {
-      const header = document.getElementById('header');
-      if (direction === 'up') {
-        header.style.height = '0px';
-        header.style.visibility = 'hidden';
-        header.style.opacity = '0';
-      } else {
-        header.style.height = '110px';
-        header.style.opacity = '1';
-        header.style.visibility = 'visible';
-      }
-    }
-  })
-
-  let waypoint2 = new Waypoint({
-    offset: 110,
-    element: document.getElementById('postup-part-2'),
-    handler: function(direction) {
-      const headerImg = document.getElementById('header-img');
-      if (direction === 'up') {
-        headerImg.src = "{{site.baseurl}}/assets/img/postup-process-1.png";
-      } else {
-        headerImg.src = "{{site.baseurl}}/assets/img/postup-process-2.png";
-      }
-    }
-  })
-
-  let waypoint3 = new Waypoint({
-    offset: 110,
-    element: document.getElementById('postup-part-3'),
-    handler: function(direction) {
-      const headerImg = document.getElementById('header-img');
-      if (direction === 'up') {
-        headerImg.src = "{{site.baseurl}}/assets/img/postup-process-2.png";
-      } else {
-        headerImg.src = "{{site.baseurl}}/assets/img/postup-process-3.png";
-      }
-    }
-  })
-
-  let waypoint4 = new Waypoint({
-    offset: 110,
-    element: document.getElementById('postup-part-4'),
-    handler: function(direction) {
-      const headerImg = document.getElementById('header-img');
-      if (direction === 'up') {
-        headerImg.src = "{{site.baseurl}}/assets/img/postup-process-3.png";
-      } else {
-        headerImg.src = "{{site.baseurl}}/assets/img/postup-process-4.png";
-      }
-    }
-  })
-
-  let waypoint5 = new Waypoint({
-    offset: 110,
-    element: document.getElementById('postup-part-5'),
-    handler: function(direction) {
-      const headerImg = document.getElementById('header-img');
-      if (direction === 'up') {
-        headerImg.src = "{{site.baseurl}}/assets/img/postup-process-4.png";
-      } else {
-        headerImg.src = "{{site.baseurl}}/assets/img/postup-process-5.png";
-      }
-    }
-  })
-</script>
-{% include footer.html %}
+<div class="w-full flex justify-between max-w-[900px] m-auto mt-20 md:mt-36">
+  <a href="/work/able-ally" class="flex flex-col items-end mb-10 md:mb-20 px-4 md:px-0">
+    <div class="font-semibold mb-1">Previous Case Study:</div>
+    <div class="flex items-center self-start">
+      <img class="w-[18px] mr-1" src="{{site.baseurl}}/assets/img/previous-arrow.png"></img>
+      <div class="font-semibold mt-0.5">Able Ally</div>
+    </div>
+  </a>
+  <a href="/work/stride" class="flex flex-col items-end mb-10 md:mb-20 px-4 md:px-0">
+    <div class="font-semibold mb-1">Next Case Study:</div>
+    <div class="flex items-center">
+      <div class="font-semibold mt-0.5 mr-1">Stride</div>
+      <img class="w-[18px]" src="{{site.baseurl}}/assets/img/next-arrow.png"></img>
+    </div>
+  </a>
+</div>
