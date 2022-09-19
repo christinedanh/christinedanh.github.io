@@ -10,7 +10,7 @@ case-studies:
 - title: Able Ally
   subtitle: A web app connecting people with disabilities to freelance support providers
   image: able-ally-thumbnail
-  permalink: ably-ally
+  permalink: able-ally
 - title: PostUp
   subtitle: Helping remote workers find public spaces to work at while on the go
   image: postup-thumbnail

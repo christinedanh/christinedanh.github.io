@@ -5,12 +5,11 @@ layout: default
   {% include nav.html%}
 {% endif %}
 
-<div class="text-dark-primary max-w-[700px] mt-28 mx-auto">
-  <div class="text-[4rem] leading-tight font-bold mb-16">I'm Christine Danh. Nice to meet you.</div>
-  <div class="my-10 text-lg">
+<div class="text-dark-primary max-w-[600px] my-28 mx-auto px-4 md:px-0">
+  <div class="mt-10 text-lg mb-20">
+    <img class="w-[180px] mb-4 md:float-right md:mb-0 md:mt-6 md:ml-2" src="{{site.baseurl}}/assets/img/christine.jpg">
+    <div class="text-[4rem] leading-tight font-bold mb-8 font-serif">Hi there! 👋🏼</div>
     {{ content }}
   </div>
-  <div class="text-2xl leading-tight font-bold mb-2">Email me</div>
-  <a class="text-xl font-semibold underline text-sky-500" href="mailto:christine.danh@gmail.com">christine.danh@gmail.com</a>
+  {% include footer.html %}
 </div>
-{% include footer.html %}

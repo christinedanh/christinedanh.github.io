@@ -5,7 +5,7 @@ layout: default
   {% include nav.html %}
 {% endif %}
 
-<div class="text-dark-primary max-w-[900px] mt-28 mb-28 mx-auto">
+<div class="text-dark-primary max-w-[900px] mt-28 mb-28 mx-auto px-4 md:px-0">
   <div class="text-[4rem] leading-tight font-bold mb-6 font-serif">Hi, I'm Christine</div>
   <div class="text-2xl leading-normal w-full md:w-3/4"><b>Designer</b> and <b>behavior analyst</b> fascinated by the intersection of design and social impact.</div>
   <div class="text-2xl font-semibold mt-28 mb-6">Recent work</div>
@@ -22,9 +22,5 @@ layout: default
       </a>
     {% endfor %}
   </div>
-  <div>
-    <div class="text-3xl font-serif mb-2">Let's connect!</div>
-    <div class="text-lg">christine.danh@gmail.com</div>
-    {% include social-media.html %}
-  </div>
+  {% include footer.html %}
 </div>
