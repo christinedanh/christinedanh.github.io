@@ -1,7 +1,7 @@
 <nav class="flex flex-wrap items-center justify-center max-w-[900px] m-auto py-6 px-4 md:px-0">
     <div class="mx-auto flex flex-wrap items-center justify-between w-full">
         <div class="justify-start">
-            <a href="{{site.baseurl}}/" class="text-2xl font-bold tracking-wide font-serif text-black">
+            <a href="{{site.baseurl}}/" class="text-2xl font-semibold tracking-wide font-serif text-black">
                 christine
             </a>
         </div>
@@ -23,8 +23,9 @@
                 <div class="flex flex-col md:flex-row mr-auto w-full">
                     <!-- dynamic menu based on navigation info in _config.yml -->
                     {% for link in site.nav-menu %}
-                        <a class="text-md text-black px-6 py-2 lg:py-1 mx-auto font-semibold"
-                            href="{{site.baseurl}}/{{link.permalink}}">
+                        <a class="nav-item text-md text-black px-6 py-2 lg:py-1 mx-auto "
+                            href="{{site.baseurl}}/{{link.permalink}}"
+                            data-path="{{site.baseurl}}/{{link.permalink}}">
                             {{link.text}}
                         </a>
                     {% endfor %}
@@ -33,3 +34,10 @@
         </div>
     </div>
 </nav>
+
+<script>
+    const currentNavItem = document.querySelectorAll(`[data-path="${window.location.pathname}"]`);
+    if (currentNavItem.length > 0) {
+        currentNavItem[0].classList.add('font-semibold');
+    }
+</script>
