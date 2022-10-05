@@ -19,6 +19,7 @@ module.exports = {
         "dark-red": '#A14F52',
         "background-gray": '#F9F9F9',
         "blue-primary": '#3D67FF',
+        'background-gray-dark': '#F3F3F3',
       },
       fontFamily: {
         sans: ['Red Hat Text', ...defaultTheme.fontFamily.sans],
