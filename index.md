@@ -12,7 +12,7 @@ case-studies:
     - Health
     - Mobile
 - title: Stride
-  subtitle: Making fitness social
+  subtitle: A fitness app redesigned with social features, increasing user engagement
   image: stride-thumbnail
   permalink: stride
   tags:
