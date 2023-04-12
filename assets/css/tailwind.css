@@ -1196,6 +1196,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   text-transform: uppercase;
 }
 
+.italic {
+  font-style: italic;
+}
+
 .leading-10 {
   line-height: 2.5rem;
 }
@@ -1297,6 +1301,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
+.text-\[\#3E3C3D\] {
+  --tw-text-opacity: 1;
+  color: rgb(62 60 61 / var(--tw-text-opacity));
+}
+
 .\!no-underline {
   -webkit-text-decoration-line: none !important;
           text-decoration-line: none !important;
@@ -1304,6 +1313,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .opacity-0 {
   opacity: 0;
+}
+
+.opacity-50 {
+  opacity: 0.5;
 }
 
 .shadow-sm {

@@ -10,25 +10,25 @@ layout: default
   <div class="text-2xl leading-normal w-full md:w-3/4"><b>Designer</b> and <b>behavior analyst</b> fascinated by the intersection of design and social impact.</div>
   <div class="text-2xl font-semibold mt-28 mb-6">Recent work</div>
   <div class="grid md:grid-cols-2 md:grid-rows-2 gap-5 mb-28">
-      <a href="https://perl.xyz" target="_blank" class="lg:w-[440px] shadow-portfolio rounded">
+      <a href="/" target="_blank" class="lg:w-[440px] shadow-portfolio rounded">
         <div class="justify-center flex">
-          <img src="{{site.baseurl}}/assets/img/perl-thumbnail.png">
+          <img src="{{site.baseurl}}/assets/img/carecopilot-thumbnail.png">
         </div>
         <div class="p-6">
-          <div class="text-lg font-semibold mb-2">Perl.xyz</div>
-          <div class="mb-1">Social bookmarking app built on web3</div>
-          <div class="mb-4">Case study coming soon</div>
+          <div class="text-lg font-semibold mb-2">CareCopilot</div>
+          <div class="mb-1">A web app for people caring for their aging parents</div>
+          <div class="mb-4 text-[#3E3C3D] opacity-50 italic">Case study coming soon</div>
           <div class="flex gap-x-2">
-            <div class="bg-background-gray-dark py-2 px-3 rounded-3xl">
-              Product Design
+            <div class="bg-background-gray-dark py-2 px-3 rounded-3xl text-sm">
+              UX/UI Design
             </div>
-            <div class="bg-background-gray-dark py-2 px-3 rounded-3xl">
-              Social
+            <div class="bg-background-gray-dark py-2 px-3 rounded-3xl text-sm">
+              UX Research
             </div>
-            <div class="bg-background-gray-dark py-2 px-3 rounded-3xl">
-              Mobile
+            <div class="bg-background-gray-dark py-2 px-3 rounded-3xl text-sm">
+              Health
             </div>
-            <div class="bg-background-gray-dark py-2 px-3 rounded-3xl">
+            <div class="bg-background-gray-dark py-2 px-3 rounded-3xl text-sm">
               Web
             </div>
           </div>
@@ -44,7 +44,7 @@ layout: default
           <div class="mb-4 leading-7">{{ case-study.subtitle }}</div>
           <div class="flex gap-x-2">
             {% for tag in case-study.tags %}
-              <div class="bg-background-gray-dark py-2 px-3 rounded-3xl">
+              <div class="bg-background-gray-dark py-2 px-3 rounded-3xl text-sm">
                 {{ tag }}
               </div>
             {% endfor %}
